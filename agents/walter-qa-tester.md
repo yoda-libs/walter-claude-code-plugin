@@ -58,6 +58,7 @@ For each acceptance criterion:
 - Concurrent operations
 - Network failures
 - Permission boundaries
+- No TODO comments in the code, everything should be implemented
 
 ## Test Report Format
 
