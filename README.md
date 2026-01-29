@@ -71,11 +71,16 @@ One command. Five phases. Production-ready code.
 ### 1. Install the Plugin
 
 ```bash
-# Local installation
-claude --plugin-dir /path/to/walter-claude-code-plugin
+# Add the marketplace
+/plugin marketplace add yoda-libs/walter-claude-code-plugin
 
-# Or from marketplace (coming soon)
-/plugin install walter
+# Install the plugin
+/plugin install walter@yoda-libs
+```
+
+Or for local development:
+```bash
+claude --plugin-dir /path/to/walter-claude-code-plugin
 ```
 
 ### 2. Initialize Your Project
@@ -240,7 +245,8 @@ MIT License — use it, modify it, ship it.
 ### Ready to 10x Your Development Speed?
 
 ```bash
-claude --plugin-dir /path/to/walter-claude-code-plugin
+/plugin marketplace add yoda-libs/walter-claude-code-plugin
+/plugin install walter@yoda-libs
 ```
 
 **[Get Started Now](#quick-start)**
